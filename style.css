@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+.margin_images{
+	margin-top:17px;
+}
+.main_cont{
+	margin-bottom:17px;
+}
+.urban_hover {
+float:left;
+overflow:hidden;
+position:relative;
+text-align:center;
+cursor:default;
+}
+.urban_hover img {
+display:block;
+position:relative;
+-webkit-transition:all .2s linear;
+transition:all .2s linear;
+}
+.urban_hover:hover img {
+-ms-transform:scale(1.05);
+-webkit-transform:scale(1.05);
+transform:scale(1.05);
+}
